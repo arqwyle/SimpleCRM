@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: SimpleCRM
+
+  datasource:
+    url: jdbc:postgresql://db:5432/app_db
+    username: postgres
+    password: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
